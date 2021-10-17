@@ -15,7 +15,7 @@ public class Product {
     }
 
     public Product(int id, String name, double unitPrice,
-                   String detail, double discount, double unitPriceAfterDiscount){
+                   String detail, double discount){
         this();
         this.id = id;
         this.name = name;
